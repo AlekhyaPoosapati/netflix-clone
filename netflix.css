@@ -1,0 +1,103 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+.head
+{
+    background-image: url('https://wallpapercave.com/wp/wp5993832.png');
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position-y: 5px;
+    background-size: cover; 
+    margin: 0%; 
+}
+.heading
+    {
+        margin-top: 100px; 
+        margin-left: 10px;
+        font-size: 30px;
+    }
+    .des
+    {
+    margin-left: 10px; 
+    margin-top: 5px; 
+    font-size: 15px;
+    }
+    .image
+    {
+         width:120px;
+         position: fixed;
+        margin: 8px;
+    }
+@media (min-width:320px) and (max-width:480px)
+{
+    .head
+    {
+        background-image: url('https://wallpapercave.com/wp/wp5993832.png');
+        background-repeat: no-repeat;
+        background-position-y: 5px;
+        background-size: 120%;
+        margin: 0%;
+        height: 100%;
+     
+    }
+    .heading
+    {
+        margin-top: 30px; 
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    
+    .image
+    {
+         width:60px;
+         position: fixed;
+        margin: 4px;
+    }
+    .des
+    {
+        font-size: 5px;
+        margin-left: 5px;
+        margin-top:2px;
+    }
+}
+
+.no
+{
+    display: flex;
+    overflow-y: hidden;
+    transition: transform 0.4s;
+    margin-top: 5px;
+}
+.no > img
+{
+    margin: 8px;
+    margin-top: 3px;
+}
+.no::-webkit-scrollbar 
+{
+    display: none;
+}
+.no > :hover
+{
+    transform: scale(1.1);
+}
+.tp
+{
+    display: flex;
+    overflow-y: hidden;
+    transition: transform 0.4s;
+}
+.tp > img
+{
+    margin: 8px;
+}
+.tp::-webkit-scrollbar 
+{
+    display: none;
+}
+.tp > :hover
+{
+    transform: scale(1.1);
+}
