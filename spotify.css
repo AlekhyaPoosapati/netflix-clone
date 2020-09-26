@@ -1,0 +1,386 @@
+body
+{
+    font-family: Helvetica, Arial;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.top
+{
+    display: flex;
+    height: 510px;
+    padding: 5px;
+}
+.right
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    width: 100%;
+    margin-top: -14px;
+    margin-right: -12px;
+    overflow-x: hidden; 
+} 
+.right::-webkit-scrollbar 
+{
+    display: none;
+}
+.bottom
+{
+    
+    height: 100px;
+    border: none;
+    padding-left: 45%;
+    background-color:#282828 ;
+    margin-bottom: -15px;
+    margin-left: -7px;
+    margin-right: -7px;
+    margin-top: -5px;  
+}
+footer
+{
+    display: none;
+}
+.moy
+{
+    border: none;
+    border-radius: 15px;
+    padding: 23px;
+    margin-right: 84.5%;
+    height: 200px;
+    background-color: #252525;
+}
+.dm
+{
+    margin-top: 15px;
+}
+.para
+{
+    margin-top: -15px;
+    font-size: 7px;
+    color: #A9A9A9;
+}
+
+.options
+{
+    width: 17%;
+    padding: 15px;
+    height: 70%;
+    margin-left: -10px;
+}
+.head
+{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-top: 20px;
+}
+.but1
+{
+    margin-left: 10px;
+}
+.but1 > button
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.but2
+{
+    margin-right: 20px;
+}
+.up
+{
+    padding: 10px;
+    border: 0.5px solid white;
+    color: white;
+    border-radius: 20px;
+    width: 150px;
+    font-weight: bold;
+    background-color: black;
+}
+.us
+{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 0.5px solid white;
+}
+.play
+{
+    margin-left: 30px;
+}
+.play > p
+{
+    margin-top: -15px;
+}
+.ch
+{
+    display: flex;
+    flex-direction: column;
+}
+.cont
+{
+    display: flex;
+    margin-bottom: 10px;  
+}
+.cont2
+{
+    display: flex;
+    margin-bottom: 10px;  
+}
+.cont > div
+{
+    border: none;
+    border-radius: 15px;
+    padding: 23px;
+    margin-right:15px;
+    height: 200px;
+    background-color: #252525;
+}
+.cont2 > div
+{
+    border: none;
+    border-radius: 15px;
+    padding: 23px;
+    margin-right:15px;
+    height: 200px;
+    background-color: #252525;
+}
+.cont > p
+{
+    margin-top: -15px;
+}
+.cont > h5
+{
+    margin-top: 15px;
+}
+.sec
+{
+    display: flex;
+    justify-content: space-between;
+}
+.link
+{
+    margin-top: 30px;
+    margin-right: 20px;
+    color: #B3B3B3;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+   
+.first
+{
+    margin-top: 15px;
+    background-color:#282828;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    margin-left: -40px;
+    position: fixed;
+}
+.second
+{
+    margin-top: 15px;
+    background-color:#282828;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    margin-left: -1px;
+}
+.third
+{
+    margin-top: 10px;
+    background-color:#282828;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    margin-left: 40px;
+}
+.four
+{
+    margin-top: 15px;
+    background-color:#282828;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    margin-left: 95px;
+}
+.five
+{
+    margin-top: 17px;
+    background-color:#282828;
+    color: white;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    margin-left: 125px;
+}
+.music
+{
+    margin-top:60px;
+    margin-left: -190px;
+}
+.sound
+{
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+select
+{
+    border: none;
+    background-color: black;
+    color: white;
+}
+.set
+{
+    display: none;
+}
+
+
+@media (min-width:320px) and (max-width:480px)
+{
+.options
+{
+    display: none;
+}
+.head
+{
+    display: none;
+}
+.set
+{
+    display: flex;
+    background-color: black;
+    margin-left: 220px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+}
+.right
+{
+    background-color: black;
+} 
+.bottom
+{
+    display: none;
+}
+.moy
+{
+    margin-right: 50.5%;
+    background-color: black;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+.play > p
+{
+    display: none;
+}
+.play > h2
+{
+    margin-left: -25px
+   
+}
+.dm
+{
+    font-size: 7px;
+}
+.para
+{
+    display: none;
+}
+.cont > div
+{
+    border: none;
+    background-color:black;
+    margin-right: -35px;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+.cont2 > div
+{
+    border: none;
+    background-color:black;
+    margin-right: -35px;
+    margin-top: -20px;
+    margin-bottom: -40px;
+    padding-right: 40px;
+}
+.cont2 > h5
+{
+     margin-left: 30px;
+}
+.cont
+{
+    overflow-y: hidden;
+    margin-left: -50px;
+}
+.cont::-webkit-scrollbar 
+{
+    display: none;
+}
+.cont2
+{
+    overflow-y: hidden;
+    margin-left: -50px;
+}
+.cont2::-webkit-scrollbar 
+{
+    display: none;
+}
+.sec > h2
+{
+   margin-left: -25px;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.sec > a
+{
+    display: none;
+}
+
+.ch
+{
+    margin-top: -50px;
+}
+footer
+{
+    display:inline;
+}
+.mob
+{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.opt
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #282828;
+}
+.buttons > button
+{
+    margin-top: 10px;
+    color: white;
+    background-color: #282828;
+    border: none;
+}
+.buttons > p
+{
+    margin-left:0px;
+    margin-top: -1px;
+    padding: 2px;
+}
+
+
+}
